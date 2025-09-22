@@ -5,6 +5,7 @@ export default function Input({
   value,
   type,
   readonly,
+  placeholder
 }): unknown {
   return (
     <input
@@ -14,6 +15,7 @@ export default function Input({
       name={name}
       readOnly={readonly}
       value={value}
+      placeholder={placeholder}
     />
   );
 }
